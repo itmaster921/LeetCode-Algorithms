@@ -1,4 +1,5 @@
 # Currently beats 18.54% of Ruby submissions.
+
 def two_sum(nums, target)
   numbers_hash = {}
   nums.each_with_index do |number, index|

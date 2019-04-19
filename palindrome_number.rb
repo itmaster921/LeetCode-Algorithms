@@ -12,7 +12,7 @@ def is_palindrome(x)
   else
     reversed = 0
     x_clone = x.abs
-    # Trick to return reversed number without using extra space by creating a string
+
     while x != 0 do
       reversed *= 10
       reversed += x % 10
